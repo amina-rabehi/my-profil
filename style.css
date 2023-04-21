@@ -77,7 +77,7 @@ body {
 
   .boutons {
     display: grid;
-    grid-template-columns: 8fr 8fr ;
+    grid-template-columns: 10fr 10fr ;
     gap: 10px 5px;
     
   }
