@@ -72,9 +72,6 @@ body {
   }
   
   .btn-blue:hover {
-    background-color: white;
-    color : #1572A1 ; 
-    border : solid;
     transform: scale(1.1);
   }
 
