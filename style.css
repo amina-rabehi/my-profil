@@ -64,6 +64,10 @@ body {
     padding: 16px 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    
     
   }
   
@@ -71,12 +75,14 @@ body {
     background-color: white;
     color : #1572A1 ; 
     border : solid;
+    transform: scale(1.1);
   }
 
   .boutons {
     display: grid;
     grid-template-columns: 8fr 8fr ;
     gap: 10px 5px;
+    
   }
   
   #intro {
