@@ -118,3 +118,29 @@ span {
 
 }
 
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 680px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+  .cards-inline {
+    grid-template-columns: 1fr;
+  }
+}
